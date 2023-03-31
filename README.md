@@ -1,15 +1,14 @@
 ## Bacterial CFU/mL Prediction from Optical Density Data
 
-This project uses linear regression to predict the colony forming units per milliliter (CFU/mL) of bacteria from the optical density (OD) measurements. The OD is a measure of how much light is absorbed by a liquid sample, and it is proportional to the concentration of bacteria in the sample. The CFU/mL is a measure of how many viable bacteria are present in the sample, and it is determined by counting the number of colonies that grow on a solid medium after dilution and incubation.
+This project uses linear regression to predict the colony forming units per milliliter (CFU/mL) of bacteria from the optical density (OD) measurements. The OD is a measure of how much light is absorbed by a liquid sample, and it is proportional to the concentration of bacteria in the sample. The CFU/mL is a measure of how many viable bacteria are present in the sample, and it is determined by counting the number of colonies that grow on a solid medium after dilution and incubation. The data here are randomly generated for demonstration purpose only. 
 
-The data here are randomly generated for demonstration purpose only. 
+<img src = "https://raw.githubusercontent.com/sulovek/BacteriaCFUprediction/main/plot.png">
 
 The project consists of the following files:
 
 * regression_sample_data.csv: The raw data file that contains the OD and CFU/mL values for 100 samples.
 * linearregression.ipynb: The Jupyter notebook that performs the data exploration, visualization, and linear regression using Python libraries such as pandas, seaborn, and scipy.stats.
 
-<img src = "https://raw.githubusercontent.com/sulovek/BacteriaCFUprediction/main/plot.png">
 
 ## How to use
 
