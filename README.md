@@ -9,7 +9,7 @@ The project consists of the following files:
 * regression_sample_data.csv: The raw data file that contains the OD and CFU/mL values for 100 samples.
 * linearregression.ipynb: The Jupyter notebook that performs the data exploration, visualization, and linear regression using Python libraries such as pandas, seaborn, and scipy.stats.
 
-<img src = "
+<img src = "https://raw.githubusercontent.com/sulovek/BacteriaCFUprediction/main/plot.png">
 
 ## How to use
 
