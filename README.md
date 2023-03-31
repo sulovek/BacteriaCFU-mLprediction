@@ -19,3 +19,5 @@ To explore and visualize the data, run linearegression.ipynb
 To analyze your own experiment data, copy and paste the data in the example dataset (regression_sample_data.csv). 
 
 To predict the CFU/mL for a given OD value, change the value in the line <b> prediction = model.predict([[0.2]]) </b> In the example, prediction of CFU/mL for OD 0.2 is done and the predicted CFU/mL is printed in the next line. 
+
+It is recommended to use OD that is > 0.1. 
